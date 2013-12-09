@@ -1,0 +1,3 @@
+#gztxt - A GZip Compressed Text File Format
+
+Comin soon...
