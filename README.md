@@ -24,8 +24,10 @@ Documentation on the API exposed by `libgztxt` is coming soon.
 
 ####Credits
 
-Icon: [Jojo Mendoza](http://www.deleket.com/) - CC Attribution-Noncommercial-No Derivate 3.0
-commandline: [gsscoder](https://github.com/gsscoder) - MIT
+Special thanks to those that have helped or provided resources:
+
+* Icon: [Jojo Mendoza](http://www.deleket.com/) - CC Attribution-Noncommercial-No Derivate 3.0
+* commandline: [gsscoder](https://github.com/gsscoder) - MIT
 
 
 ####License
