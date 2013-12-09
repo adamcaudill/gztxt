@@ -1,9 +1,9 @@
 ##gztxt - A GZip Compressed Text File Format
 
 ####What is this?
-A .gztxt file is a standard .txt that has been compressed with [gzip]() to make transport more efficient. This makes transfering and storing certain files (i.e. logs) easier.
+A .gztxt file is a standard .txt that has been compressed with [gzip]() to make transport more efficient. This makes transferring and storing certain files (i.e. logs) easier.
 
-What prompted this was the need to email error reports containg log files, without placing too much burden on email servers by storing large attachments.
+What prompted this was the need to email error reports containing log files, without placing too much burden on email servers by storing large attachments.
 
 ####Use
 gztxt consists of three parts:
@@ -12,7 +12,7 @@ gztxt consists of three parts:
 * `gztxt-cli` - A command line utility to compress or decompress gztxt files.
 * `libgztxt` - A library to allow applications to interact with gztxt files; both of the above applications are little more than wrappers for this library.
 
-`gztxt.exe register` - Registeres the `.gztxt` file type; this allows you to easily open files in your default text editor.
+`gztxt.exe register` - Registers the `.gztxt` file type; this allows you to easily open files in your default text editor.
 
 `gztxt.exe unregister` - Unregisters the file type.
 
