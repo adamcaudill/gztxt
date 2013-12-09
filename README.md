@@ -22,6 +22,10 @@ For help with `gztxt-cli`, run `gztxt-cli.exe --help` to receive the most curren
 
 Documentation on the API exposed by `libgztxt` is coming soon.
 
+####Compatibility
+
+`.gztxt` files are standard `.gz` files, and can be extracted  or created with the `gzip` utility. There are no changes to the file format, the `gztxt` tools are intended to simplify a specific use-case for Windows users.
+
 ####Credits
 
 Special thanks to those that have helped or provided resources:
