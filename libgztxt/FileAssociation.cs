@@ -6,6 +6,8 @@ namespace GZipText.Library
 {
   public static class FileAssociation
   {
+    //This code basd on the code posted here, with significant modifications:
+    // http://stackoverflow.com/questions/2681878/associate-file-extension-with-application
     public static void SetAssociation(string extension, string keyName, string openWith, string fileDescription)
     {
       var baseKey = Registry.CurrentUser.OpenSubKey(@"Software\Classes", true).CreateSubKey(extension);
