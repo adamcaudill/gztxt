@@ -12,6 +12,12 @@ What prompted this was the need to email error reports containg log files, witho
 ####Use
 Coming soon.
 
+####Credits
+
+Icon: [Jojo Mendoza](http://www.deleket.com/) - CC Attribution-Noncommercial-No Derivate 3.0
+commandline: [gsscoder](https://github.com/gsscoder) - MIT
+
+
 ####License
 This software is released under the MIT license.
 
