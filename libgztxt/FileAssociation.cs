@@ -17,7 +17,6 @@ namespace GZipText.Library
       openMethod.SetValue(string.Empty, fileDescription);
       openMethod.CreateSubKey("DefaultIcon").SetValue(string.Empty, "\"" + openWith + "\",0");
       var shell = openMethod.CreateSubKey("Shell");
-      shell.CreateSubKey("edit").CreateSubKey("command").SetValue(string.Empty, "\"" + openWith + "\"" + " \"%1\"");
       shell.CreateSubKey("open").CreateSubKey("command").SetValue(string.Empty, "\"" + openWith + "\"" + " \"%1\"");
       baseKey.Close();
       openMethod.Close();
