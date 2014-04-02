@@ -36,6 +36,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Source: ".\gztxt\bin\Release\gztxt.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: ".\gztxt\bin\Release\libgztxt.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: ".\gztxt-cli\bin\Release\gztxt-cli.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: ".\gztxt-cli\bin\Release\CommandLine.dll"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Run]
