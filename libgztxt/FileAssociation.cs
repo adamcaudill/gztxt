@@ -23,8 +23,11 @@ namespace GZipText.Library
       shell.Close();
 
       var currentUser = Registry.CurrentUser.OpenSubKey("Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FileExts\\" + extension, true);
-      currentUser.DeleteSubKey("UserChoice", false);
-      currentUser.Close();
+      if (currentUser != null)
+      {
+        currentUser.DeleteSubKey("UserChoice", false);
+        currentUser.Close();
+      }
 
       // Tell explorer the file association has been changed
       SHChangeNotify(0x08000000, 0x0000, IntPtr.Zero, IntPtr.Zero);
