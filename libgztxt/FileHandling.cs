@@ -17,8 +17,7 @@ namespace GZipText.Library
 
     public static string CreateCompressedCopy(string source)
     {
-      var sourceInfo = new FileInfo(source);
-      var dest = source.Remove(source.Length - sourceInfo.Extension.Length) + ".gztxt";
+      var dest = Path.GetFileNameWithoutExtension(source) + ".gztxt";
 
       if (File.Exists(dest))
       {
